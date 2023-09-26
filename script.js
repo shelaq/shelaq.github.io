@@ -5,36 +5,16 @@ new Vue({
   data: {
     timer: '',
     stations: {
-      "newark": {
-        name: "Newark Penn",
-        trains: []
-      },
-      "harrison": {
-        name: "Harrison",
-        trains: []
-      },
-      "journal_square": {
-        name: "Journal Square",
-        trains: []
-      },
-      "grove_street": {
-        name: "Grove Street",
+      "world_trade_center": {
+        name: "World Trade Center",
         trains: []
       },
       "exchange_place": {
         name: "Exchange Place",
         trains: []
       },
-      "world_trade_center": {
-        name: "World Trace Center",
-        trains: []
-      },
-      "newport": {
-        name: "Newport",
-        trains: []
-      },
-      "hoboken": {
-        name: "Hoboken",
+      "grove_street": {
+        name: "Grove Street",
         trains: []
       },
       "christopher_street": {
@@ -55,6 +35,26 @@ new Vue({
       },
       "thirty_third_street": {
         name: "33rd Street",
+        trains: []
+      },
+      "newark": {
+        name: "Newark Penn",
+        trains: []
+      },
+      "harrison": {
+        name: "Harrison",
+        trains: []
+      },
+      "journal_square": {
+        name: "Journal Square",
+        trains: []
+      },
+      "newport": {
+        name: "Newport",
+        trains: []
+      },
+      "hoboken": {
+        name: "Hoboken",
         trains: []
       }
     }
